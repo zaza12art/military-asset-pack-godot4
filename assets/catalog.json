@@ -1,0 +1,75 @@
+{
+  "title": "Military Asset Pack",
+  "version": "0.1.0",
+  "platform": "Linux / Godot 4",
+  "license": "CC0-style starter pack",
+  "soldier_variants": [
+    {"name": "Rifleman", "role": "Assault / front line", "status": "placeholder"},
+    {"name": "Medic", "role": "Support / rescue", "status": "placeholder"},
+    {"name": "Support", "role": "Machine gun / cover", "status": "placeholder"},
+    {"name": "Sniper", "role": "Precision fire", "status": "placeholder"},
+    {"name": "Heavy", "role": "Armor / firepower", "status": "placeholder"},
+    {"name": "Engineer", "role": "Explosives / demolition", "status": "placeholder"},
+    {"name": "Recon", "role": "Scout / stealth", "status": "placeholder"},
+    {"name": "Commander", "role": "Leadership / orders", "status": "placeholder"}
+  ],
+  "weapons": [
+    "Pistol",
+    "SMG",
+    "Assault Rifle",
+    "Battle Rifle",
+    "Sniper Rifle",
+    "LMG",
+    "Shotgun",
+    "RPG",
+    "Frag Grenade",
+    "Smoke Grenade",
+    "C4"
+  ],
+  "audio": {
+    "format": "WAV 48 kHz 24-bit stereo recommended",
+    "effects": [
+      "weapon_fire",
+      "reload",
+      "empty_magazine",
+      "explosion",
+      "grenade_throw",
+      "ricochet",
+      "hit",
+      "step",
+      "ambient_battle"
+    ]
+  },
+  "animations": [
+    "idle",
+    "walk",
+    "run",
+    "sprint",
+    "aim",
+    "fire_single",
+    "fire_auto",
+    "reload",
+    "crouch_idle",
+    "crouch_walk",
+    "prone_idle",
+    "prone_crawl",
+    "jump",
+    "melee",
+    "hit_react",
+    "death"
+  ],
+  "ui_icons": [
+    "weapon_icon",
+    "health_icon",
+    "ammo_icon",
+    "grenade_icon",
+    "medkit_icon",
+    "objective_icon",
+    "radar_icon",
+    "team_markers"
+  ],
+  "notes": [
+    "This is a starter production pack structure intended for future upgrade with licensed or CC0 source assets.",
+    "Replace placeholder meshes, textures, and sounds with real production files before shipping a game."
+  ]
+}

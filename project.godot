@@ -1,0 +1,13 @@
+; Engine configuration file.
+; It's best edited using the editor if possible.
+
+config_version=5
+
+[application]
+config/name="Military Asset Pack"
+run/main_scene="res://scenes/Main.tscn"
+config/features=PackedStringArray("4.2")
+
+[rendering]
+renderer/rendering_method="3d"
+anti_aliasing/quality/msaa_3d=2
