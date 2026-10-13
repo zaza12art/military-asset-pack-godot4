@@ -1,0 +1,10 @@
+{
+  "audio_manifest": [
+    {"name": "rifle_fire_01.wav", "category": "fire", "format": "WAV 48kHz 24-bit stereo"},
+    {"name": "rifle_reload.wav", "category": "reload", "format": "WAV 48kHz 24-bit stereo"},
+    {"name": "explosion_01.wav", "category": "explosion", "format": "WAV 48kHz 24-bit stereo"},
+    {"name": "ricochet_01.wav", "category": "ricochet", "format": "WAV 48kHz 24-bit stereo"},
+    {"name": "combat_ambience_loop.wav", "category": "ambience", "format": "WAV 48kHz 24-bit stereo"},
+    {"name": "ui_click.wav", "category": "ui", "format": "WAV 48kHz 24-bit stereo"}
+  ]
+}

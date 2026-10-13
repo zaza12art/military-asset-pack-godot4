@@ -1,0 +1,15 @@
+{
+  "weapons": [
+    {"id": "pistol", "type": "sidearm", "fire_mode": "single"},
+    {"id": "smg", "type": "automatic", "fire_mode": "auto"},
+    {"id": "assault_rifle", "type": "rifle", "fire_mode": "auto"},
+    {"id": "battle_rifle", "type": "rifle", "fire_mode": "semi_auto"},
+    {"id": "sniper_rifle", "type": "precision", "fire_mode": "semi_auto"},
+    {"id": "lmg", "type": "heavy", "fire_mode": "auto"},
+    {"id": "shotgun", "type": "spread", "fire_mode": "single"},
+    {"id": "rocket_launcher", "type": "explosive", "fire_mode": "single"},
+    {"id": "frag_grenade", "type": "grenade", "fire_mode": "throw"},
+    {"id": "smoke_grenade", "type": "smoke", "fire_mode": "throw"},
+    {"id": "c4", "type": "charge", "fire_mode": "attach"}
+  ]
+}

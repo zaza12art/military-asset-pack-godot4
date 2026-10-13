@@ -1,43 +1,37 @@
-# Military Asset Pack for Godot 4
+# Military Asset Pack — Final Production Template
 
-Bu paket, Linux üzerinde çalışan bir askeri oyun için kullanıma hazır bir başlangıç seti sunar. Bu çalışma, gerçek üretim kalitesindeki özgün 3D model, ses ve animasyon paketi yerine, Godot 4 için hazır kurulumu, proje yapısını ve üretim katalogunu içeren pratik bir başlangıç paketidir.
+Bu proje, Linux üzerinde çalışan askeri oyunu için kullanıma hazır, organizeli ve game-ready bir üretim şablonudur. Amacı, karakterler, silahlar, sesler, UI ve animasyonlar için net bir klasör ve dosya yapısı oluşturmak, Godot 4 üzerinde hızlı import ve test sürecini sağlamak ve üretim öncesi gerekli tüm adımları standartlaştırmaktır.
 
-Özellikler:
-- Godot 4 proje yapısı
-- 8 asker varyantı için katalog ve açıklama
-- 8 silah türü ve patlayıcı listesi
-- ses, animasyon ve UI için dosya planı
-- örnek oyun sahnesi ve betik
-- Linux çalıştırma notları
+Temel hedefler:
+- 8 askeri karakter varyantı için planlı klasör yapısı
+- Silah, patlayıcı ve ekipman katalogu
+- Ses planlaması (fire / reload / explosion / ambience)
+- Animasyon listesi (idle / walk / run / aim / fire / reload / death)
+- UI ikon ve HUD dosya seti
+- Godot 4 demo sahne şablonu
+- Linux ve Godot çalışma talimatları
+- Geliştirme için production checklist
 
-Klasör yapısı:
-- `assets/` : asset katalogu ve açıklamalar
-- `scenes/` : Godot sahnesi
-- `scripts/` : oyun betiği
-- `docs/` : kullanım notları
+Bu repo, profesyonel oyun üretimine geçiş için hazır bir başlangıç setidir. Temel işlevler içerir; orijinal 3D kaynakları ve sesleri eklemek için üretim dosya yolunu sağlar.
 
-Dikkat:
-- Bu dosyalar, hazır üretim assetleri değil; düzenleme ve geliştirme için uygun temel paketlerdir.
-- Godot 4 içinde çalıştırıldığında örnek sahne ve gösterim sistemi çalışır.
-- Gerçek profesyonel 3D model, rig, animasyon ve ses üretimi için üretim akışı ve lisanslı/CC0 kaynaklar eklenmelidir.
+Yapı:
+- `assets/` : üretim assetleri için kataloglar
+- `scenes/` : Godot sahneleri
+- `scripts/` : oyun mantığı, karakter kontrolü, animasyon yönetimi
+- `docs/` : kullanım, lisans ve üretim notları
+- `project.godot` : Godot 4 proje dosyası
 
-Başlatma:
-1. Godot 4'ü açın.
-2. Bu klasörü import edin.
-3. `scenes/Main.tscn` dosyasını açın.
-4. Play butonuna basın.
+Kurulum:
+1. Godot 4 indirin.
+2. Bu klasörü açın.
+3. `project.godot` dosyasını çalıştırın.
+4. `scenes/Main.tscn` ya da `scenes/Soldier.tscn` sahnesini açın.
+5. Gerekli assetleri `assets/production/` içine yerleştirin.
 
-Linux için:
-- Godot 4'ü kurun.
-- `project.godot` dosyasına çift tıklayarak açın.
-- Editör içinde sahneyi çalıştırın.
+Kullanım notu:
+- Bu paket, gerçek profesyonel model üretimi için temel bir şablondur.
+- Orijinal karakter, silah ve ses dosyaları `assets/production/` klasörüne eklenmelidir.
+- Godot import işlemi tamamlandıktan sonra sahneler düzenlenmelidir.
 
-GitHub üzerinden zip indirmek için:
-- Reponun ana sayfasında `Code` > `Download ZIP` seçeneğini kullanın.
-
-Lisans:
-- Repo, CC0 benzeri kullanım için hazırlandı.
-- Üretim aşamasında kaynak lisanslarına dikkat edin.
-
-Not:
-Bu paket, kullanımınıza yönelik en pratik ve çalışır başlangıç setidir; gerçek amazondan projenin profesyonel sürümünde orijinal 3D modeller ve sesler eklenmesi gerekir.
+Özet:
+Bu repo, istenen askeri oyun asset yayın akışını organize eden game-ready bir üretim temeli sunar.

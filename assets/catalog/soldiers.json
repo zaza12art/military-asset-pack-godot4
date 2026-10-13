@@ -1,0 +1,55 @@
+{
+  "soldiers": [
+    {"id": "rifleman", "name": "Rifleman", "role": "Assault"},
+    {"id": "medic", "name": "Medic", "role": "Support"},
+    {"id": "support", "name": "Support", "role": "Machine gun"},
+    {"id": "sniper", "name": "Sniper", "role": "Precision"},
+    {"id": "heavy", "name": "Heavy", "role": "Armor"},
+    {"id": "engineer", "name": "Engineer", "role": "Explosives"},
+    {"id": "recon", "name": "Recon", "role": "Scout"},
+    {"id": "commander", "name": "Commander", "role": "Command"}
+  ],
+  "weapons": [
+    {"id": "pistol", "name": "Pistol"},
+    {"id": "smg", "name": "SMG"},
+    {"id": "assault_rifle", "name": "Assault Rifle"},
+    {"id": "battle_rifle", "name": "Battle Rifle"},
+    {"id": "sniper_rifle", "name": "Sniper Rifle"},
+    {"id": "lmg", "name": "LMG"},
+    {"id": "shotgun", "name": "Shotgun"},
+    {"id": "rocket_launcher", "name": "Rocket Launcher"},
+    {"id": "frag_grenade", "name": "Frag Grenade"},
+    {"id": "smoke_grenade", "name": "Smoke Grenade"},
+    {"id": "c4", "name": "C4"}
+  ],
+  "audio": {
+    "format": "WAV 48 kHz 24-bit stereo",
+    "categories": [
+      "fire",
+      "reload",
+      "explosion",
+      "ricochet",
+      "hit",
+      "ambience",
+      "ui"
+    ]
+  },
+  "animations": [
+    "idle",
+    "walk",
+    "run",
+    "sprint",
+    "aim",
+    "fire_single",
+    "fire_auto",
+    "reload",
+    "crouch_idle",
+    "crouch_walk",
+    "prone_idle",
+    "prone_crawl",
+    "jump",
+    "melee",
+    "hit_react",
+    "death"
+  ]
+}
